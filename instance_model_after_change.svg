@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1126pt" height="624pt" viewBox="-6 -6 1137.5799560546875 636" class="refinery-31MTi5AJnTOZucweq5WNn"><style>.refinery-31MTi5AJnTOZucweq5WNn .node text{font-family:"Open Sans Variable","Open Sans","Roboto","Helvetica","Arial",sans-serif;fill:#19202b;font-optical-sizing:none;letter-spacing:0;text-rendering:geometricPrecision;}.refinery-31MTi5AJnTOZucweq5WNn .node .node-outline{stroke:#19202b;}.refinery-31MTi5AJnTOZucweq5WNn .node .node-header{fill:rgb(53, 161, 173);}.refinery-31MTi5AJnTOZucweq5WNn .node .node-bg{fill:#fff;}.refinery-31MTi5AJnTOZucweq5WNn .node-atom .node-outline{stroke-width:2;}.refinery-31MTi5AJnTOZucweq5WNn .node-shadow.node-bg{fill:#19202b;opacity:0.24;}.refinery-31MTi5AJnTOZucweq5WNn .node-exists-UNKNOWN .node-outline{stroke-dasharray:5 2;}.refinery-31MTi5AJnTOZucweq5WNn .node-typeHash-g .node-header{fill:#e5c07b;}.refinery-31MTi5AJnTOZucweq5WNn .node-typeHash-h .node-header{fill:#e06c75;}.refinery-31MTi5AJnTOZucweq5WNn .node-typeHash-i .node-header{fill:#98c379;}.refinery-31MTi5AJnTOZucweq5WNn .node-typeHash-j .node-header{fill:#c678dd;}.refinery-31MTi5AJnTOZucweq5WNn .node-typeHash-k .node-header{fill:#80a7f4;}.refinery-31MTi5AJnTOZucweq5WNn .node-typeHash-l .node-header{fill:#e3d1b2;}.refinery-31MTi5AJnTOZucweq5WNn .node-typeHash-m .node-header{fill:#e78b8f;}.refinery-31MTi5AJnTOZucweq5WNn .node-typeHash-n .node-header{fill:#abcc94;}.refinery-31MTi5AJnTOZucweq5WNn .node-typeHash-o .node-header{fill:#dbb2e8;}.refinery-31MTi5AJnTOZucweq5WNn .node-typeHash-p .node-header{fill:#92c0e9;}.refinery-31MTi5AJnTOZucweq5WNn .edge text{font-family:"Open Sans Variable","Open Sans","Roboto","Helvetica","Arial",sans-serif;fill:#19202b;font-optical-sizing:none;letter-spacing:0;text-rendering:geometricPrecision;}.refinery-31MTi5AJnTOZucweq5WNn .edge .edge-line{stroke:#19202b;}.refinery-31MTi5AJnTOZucweq5WNn .edge .edge-arrow{fill:#19202b;}.refinery-31MTi5AJnTOZucweq5WNn .edge-UNKNOWN text{fill:#696c77;}.refinery-31MTi5AJnTOZucweq5WNn .edge-UNKNOWN .edge-line{stroke:#696c77;}.refinery-31MTi5AJnTOZucweq5WNn .edge-UNKNOWN .edge-arrow{fill:none;}.refinery-31MTi5AJnTOZucweq5WNn .edge-ERROR text{fill:#4078f2;}.refinery-31MTi5AJnTOZucweq5WNn .edge-ERROR .edge-line{stroke:#4078f2;}.refinery-31MTi5AJnTOZucweq5WNn .edge-ERROR .edge-arrow{fill:#4078f2;}.refinery-31MTi5AJnTOZucweq5WNn .icon-TRUE{fill:#19202b;}.refinery-31MTi5AJnTOZucweq5WNn .icon-UNKNOWN{fill:#696c77;}.refinery-31MTi5AJnTOZucweq5WNn .icon-ERROR{fill:#4078f2;}.refinery-31MTi5AJnTOZucweq5WNn text.label-UNKNOWN{fill:#696c77;}.refinery-31MTi5AJnTOZucweq5WNn text.label-ERROR{fill:#4078f2;}.refinery-31MTi5AJnTOZucweq5WNn .node-exists-FALSE text:not(.label-ERROR){fill:#696c77;}.refinery-31MTi5AJnTOZucweq5WNn .node-exists-FALSE .node-outline{stroke:#696c77;stroke-dasharray:2 4;}.refinery-31MTi5AJnTOZucweq5WNn .node-exists-FALSE .node-header{fill:#fff!important;}.refinery-31MTi5AJnTOZucweq5WNn .node-exists-FALSE .icon-TRUE{fill:#696c77;}.refinery-31MTi5AJnTOZucweq5WNn .node-exists-ERROR .node-outline{stroke:#4078f2;}.refinery-31MTi5AJnTOZucweq5WNn .node-exists-ERROR .node-header{fill:#fff!important;}</style><defs><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon-TRUE"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="refinery-31MTi5AJnTOZucweq5WNn-icon-UNKNOWN" class="icon-UNKNOWN"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16zM16 17H5V7h11l3.55 5L16 17z"/></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="refinery-31MTi5AJnTOZucweq5WNn-icon-ERROR" class="icon-ERROR"><path d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10s10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17L12 13.41L8.41 17L7 15.59L10.59 12L7 8.41L8.41 7L12 10.59L15.59 7L17 8.41L13.41 12L17 15.59z"/></svg></defs>
+<g class="graph" transform="scale(1 1) rotate(0) translate(4 620)">
+<!-- n0 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-k">
+
+<rect stroke="none" x="360.5" y="-616" width="69" height="48" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="356.5" y="-620" width="77" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-0)" class="node-header"/>
+<text text-anchor="middle" x="395" y="-604" font-size="12.00" dominant-baseline="middle">factory1</text>
+<use x="366.5" y="-587" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="382.5" y="-581" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">Factory</text>
+</g>
+<polyline points="360.5,-593 429.5,-593" class="node-outline"/>
+<rect fill="none" x="360.5" y="-616" width="69" height="48" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-0"><rect stroke="none" x="360.5" y="-616" width="69" height="48" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n13 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-l">
+
+<rect stroke="none" x="80" y="-48" width="90" height="48" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="76" y="-52" width="98" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-1)" class="node-header"/>
+<text text-anchor="middle" x="125" y="-36" font-size="12.00" dominant-baseline="middle">dashboard1</text>
+<use x="86" y="-19" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="102" y="-13" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">Dashboard</text>
+</g>
+<polyline points="80,-25 170,-25" class="node-outline"/>
+<rect fill="none" x="80" y="-48" width="90" height="48" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-1"><rect stroke="none" x="80" y="-48" width="90" height="48" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n0&#45;&gt;n13 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M360.64,-588.36C277.85,-579.71 75,-544.91 75,-417 75,-417 75,-417 75,-215 75,-159.19 92.11,-96.19 106.65,-58.58" class="edge-line"/>
+<polygon stroke-width="2" points="109.45,-59.83 109.92,-50.57 103.78,-57.51 109.45,-59.83" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="14" y="-395.3" font-weight="bold" font-size="10.50">dashboards</text>
+</g>
+<!-- n14 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-m">
+
+<rect stroke="none" x="338.5" y="-532" width="113" height="48" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="334.5" y="-536" width="121" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-2)" class="node-header"/>
+<text text-anchor="middle" x="395" y="-520" font-size="12.00" dominant-baseline="middle">productionLine1</text>
+<use x="344.5" y="-503" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="360.5" y="-497" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">ProductionLine</text>
+</g>
+<polyline points="338.5,-509 451.5,-509" class="node-outline"/>
+<rect fill="none" x="338.5" y="-532" width="113" height="48" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-2"><rect stroke="none" x="338.5" y="-532" width="113" height="48" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n0&#45;&gt;n14 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M388.88,-568.16C388.31,-560.43 388.13,-551.62 388.33,-543.2" class="edge-line"/>
+<polygon stroke-width="2" points="391.38,-543.63 388.74,-534.74 385.26,-543.34 391.38,-543.63" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="303.25" y="-553.51" font-weight="bold" font-size="10.50">productionLines</text>
+</g>
+<!-- n25 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-m">
+
+<rect stroke="none" x="617.5" y="-532" width="113" height="48" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="613.5" y="-536" width="121" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-3)" class="node-header"/>
+<text text-anchor="middle" x="674" y="-520" font-size="12.00" dominant-baseline="middle">productionLine2</text>
+<use x="623.5" y="-503" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="639.5" y="-497" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">ProductionLine</text>
+</g>
+<polyline points="617.5,-509 730.5,-509" class="node-outline"/>
+<rect fill="none" x="617.5" y="-532" width="113" height="48" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-3"><rect stroke="none" x="617.5" y="-532" width="113" height="48" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n0&#45;&gt;n25 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M429.23,-579.51C473.2,-565.95 550.27,-543.21 606.26,-527.23" class="edge-line"/>
+<polygon stroke-width="2" points="607.02,-530.2 614.6,-524.86 605.34,-524.3 607.02,-530.2" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="437.96" y="-554.96" font-weight="bold" font-size="10.50">productionLines</text>
+</g>
+<!-- n3 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-n">
+
+<rect stroke="none" x="121" y="-448" width="120" height="64" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="117" y="-452" width="128" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-4)" class="node-header"/>
+<text text-anchor="middle" x="181" y="-436" font-size="12.00" dominant-baseline="middle">assemblyStation1</text>
+<use x="127" y="-419" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="143" y="-413" font-style="italic" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">Workstation</text>
+</g>
+<use x="127" y="-403" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="143" y="-397" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">AssemblyStation</text>
+</g>
+<polyline points="121,-425 241,-425" class="node-outline"/>
+<rect fill="none" x="121" y="-448" width="120" height="64" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-4"><rect stroke="none" x="121" y="-448" width="120" height="64" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n3&#45;&gt;n14 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M240.72,-440.06C246.9,-442.77 253.08,-445.47 259,-448 283.81,-458.62 311.19,-469.87 334.88,-479.68" class="edge-line"/>
+<polygon points="333.51,-482.9 344.09,-483.49 336.19,-476.43 333.51,-482.9" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="219.12" y="-452.93" font-size="10.50">productionLine</text>
+</g>
+<!-- n4 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-p">
+
+<rect stroke="none" x="823" y="-448" width="148" height="64" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="819" y="-452" width="156" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-5)" class="node-header"/>
+<text text-anchor="middle" x="897" y="-436" font-size="12.00" dominant-baseline="middle">qualityControlStation1</text>
+<use x="829" y="-419" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="845" y="-413" font-style="italic" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">Workstation</text>
+</g>
+<use x="829" y="-403" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="845" y="-397" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">QualityControlStation</text>
+</g>
+<polyline points="823,-425 971,-425" class="node-outline"/>
+<rect fill="none" x="823" y="-448" width="148" height="64" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-5"><rect stroke="none" x="823" y="-448" width="148" height="64" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n4&#45;&gt;n25 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M826.77,-447.95C799.33,-459.22 768.04,-471.8 740.92,-482.45" class="edge-line"/>
+<polygon points="739.81,-479.12 731.77,-486.03 742.36,-485.64 739.81,-479.12" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="704.92" y="-469.91" font-size="10.50">productionLine</text>
+</g>
+<!-- n29 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-p">
+
+<rect stroke="none" x="1044.5" y="-340" width="61" height="48" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="1040.5" y="-344" width="69" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-6)" class="node-header"/>
+<text text-anchor="middle" x="1075" y="-328" font-size="12.00" dominant-baseline="middle">alarm3</text>
+<use x="1050.5" y="-311" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="1066.5" y="-305" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">Alarm</text>
+</g>
+<polyline points="1044.5,-317 1105.5,-317" class="node-outline"/>
+<rect fill="none" x="1044.5" y="-340" width="61" height="48" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-6"><rect stroke="none" x="1044.5" y="-340" width="61" height="48" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n4&#45;&gt;n29 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M959.09,-384.16C980.73,-373.61 1004.84,-361.14 1026,-348 1029.13,-346.05 1032.32,-343.91 1035.49,-341.69" class="edge-line"/>
+<polygon stroke-width="2" points="1037.14,-344.28 1042.45,-336.68 1033.56,-339.31 1037.14,-344.28" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="966.83" y="-365.1" font-weight="bold" font-size="10.50">alarms</text>
+</g>
+<!-- n9 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-g">
+
+<rect stroke="none" x="163" y="-148" width="92" height="64" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="159" y="-152" width="100" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-7)" class="node-header"/>
+<text text-anchor="middle" x="209" y="-136" font-size="12.00" dominant-baseline="middle">alarmEvent1</text>
+<use x="169" y="-119" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="185" y="-113" font-style="italic" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">Event</text>
+</g>
+<use x="169" y="-103" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="185" y="-97" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">AlarmEvent</text>
+</g>
+<polyline points="163,-125 255,-125" class="node-outline"/>
+<rect fill="none" x="163" y="-148" width="92" height="64" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-7"><rect stroke="none" x="163" y="-148" width="92" height="64" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n9&#45;&gt;n13 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M173.64,-84.03C164.92,-75.1 155.82,-65.36 147.85,-56.41" class="edge-line"/>
+<polygon points="150.52,-54.15 141.3,-48.92 145.25,-58.76 150.52,-54.15" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="103.81" y="-68.84" font-size="10.50">dashboard</text>
+</g>
+<!-- n19 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-o">
+
+<rect stroke="none" x="519" y="-248" width="124" height="64" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="515" y="-252" width="132" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-8)" class="node-header"/>
+<text text-anchor="middle" x="581" y="-236" font-size="12.00" dominant-baseline="middle">pLC1</text>
+<use x="525" y="-219" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="541" y="-213" font-style="italic" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">AutomationDevice</text>
+</g>
+<use x="525" y="-203" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="541" y="-197" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">PLC</text>
+</g>
+<polyline points="519,-225 643,-225" class="node-outline"/>
+<rect fill="none" x="519" y="-248" width="124" height="64" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-8"><rect stroke="none" x="519" y="-248" width="124" height="64" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n9&#45;&gt;n19 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M254.91,-138.09C262.52,-141.76 270.38,-145.27 278,-148 354.47,-175.41 445.69,-193.4 507.99,-203.77" class="edge-line"/>
+<polygon points="507.35,-207.21 517.78,-205.37 508.48,-200.3 507.35,-207.21" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="371.55" y="-181.84" font-size="10.50">plc</text>
+</g>
+<!-- n13&#45;&gt;n0 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M122.54,-47.76C113.84,-83.08 93,-153.41 93,-215 93,-417 93,-417 93,-417 93,-534.74 264.85,-573.58 349.36,-585.77" class="edge-line"/>
+<polygon points="348.8,-589.22 359.18,-587.11 349.75,-582.29 348.8,-589.22" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="0" y="-382.3" font-size="10.50">Dashboard::factory</text>
+</g>
+<!-- n13&#45;&gt;n9 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M152.22,-47.79C160.82,-56.29 170.32,-66.2 179.08,-75.76" class="edge-line"/>
+<polygon points="176.23,-77.83 185.53,-82.9 181.42,-73.14 176.23,-77.83" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="105.42" y="-55.95" font-size="10.50">loggedEvents</text>
+</g>
+<!-- n13&#45;&gt;n19 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M169.78,-35.79C200.87,-45.41 241.89,-61.48 273,-84 303.61,-106.17 296.81,-128.19 329,-148 383.75,-181.69 454.93,-198.52 507.73,-206.88" class="edge-line"/>
+<polygon points="507.13,-210.33 517.54,-208.36 508.18,-203.4 507.13,-210.33" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="252.16" y="-150.65" font-size="10.50">subscribedPLCs</text>
+</g>
+<!-- n22 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-h">
+
+<rect stroke="none" x="329" y="-148" width="156" height="64" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="325" y="-152" width="164" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-9)" class="node-header"/>
+<text text-anchor="middle" x="407" y="-136" font-size="12.00" dominant-baseline="middle">productionMetricEvent1</text>
+<use x="335" y="-119" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="351" y="-113" font-style="italic" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">Event</text>
+</g>
+<use x="335" y="-103" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="351" y="-97" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">ProductionMetricEvent</text>
+</g>
+<polyline points="329,-125 485,-125" class="node-outline"/>
+<rect fill="none" x="329" y="-148" width="156" height="64" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-9"><rect stroke="none" x="329" y="-148" width="156" height="64" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n13&#45;&gt;n22 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M169.74,-36.49C207.81,-47.46 263.87,-64.66 318.45,-82.22" class="edge-line"/>
+<polygon points="317.31,-85.53 327.9,-85.27 319.46,-78.87 317.31,-85.53" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="185.43" y="-62.99" font-size="10.50">loggedEvents</text>
+</g>
+<!-- n23 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-h">
+
+<rect stroke="none" x="503" y="-148" width="156" height="64" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="499" y="-152" width="164" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-10)" class="node-header"/>
+<text text-anchor="middle" x="581" y="-136" font-size="12.00" dominant-baseline="middle">productionMetricEvent2</text>
+<use x="509" y="-119" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="525" y="-113" font-style="italic" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">Event</text>
+</g>
+<use x="509" y="-103" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="525" y="-97" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">ProductionMetricEvent</text>
+</g>
+<polyline points="503,-125 659,-125" class="node-outline"/>
+<rect fill="none" x="503" y="-148" width="156" height="64" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-10"><rect stroke="none" x="503" y="-148" width="156" height="64" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n13&#45;&gt;n23 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M169.91,-28.9C239.17,-35.92 375.69,-52.67 491.4,-81.09" class="edge-line"/>
+<polygon points="490.51,-84.48 501.06,-83.51 492.21,-77.69 490.51,-84.48" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="273.02" y="-53.2" font-size="10.50">loggedEvents</text>
+</g>
+<!-- n28 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-g">
+
+<rect stroke="none" x="831" y="-148" width="92" height="64" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="827" y="-152" width="100" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-11)" class="node-header"/>
+<text text-anchor="middle" x="877" y="-136" font-size="12.00" dominant-baseline="middle">alarmEvent2</text>
+<use x="837" y="-119" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="853" y="-113" font-style="italic" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">Event</text>
+</g>
+<use x="837" y="-103" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="853" y="-97" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">AlarmEvent</text>
+</g>
+<polyline points="831,-125 923,-125" class="node-outline"/>
+<rect fill="none" x="831" y="-148" width="92" height="64" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-11"><rect stroke="none" x="831" y="-148" width="92" height="64" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n13&#45;&gt;n28 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M169.71,-26.18C301.07,-30.17 684.39,-44.95 819.75,-80.79" class="edge-line"/>
+<polygon points="818.53,-84.09 829.11,-83.45 820.45,-77.35 818.53,-84.09" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="437.18" y="-44.63" font-size="10.50">loggedEvents</text>
+</g>
+<!-- n14&#45;&gt;n0 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M401.11,-531.72C401.69,-539.44 401.87,-548.24 401.67,-556.66" class="edge-line"/>
+<polygon points="398.17,-556.49 401.2,-566.65 405.17,-556.82 398.17,-556.49" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="287.75" y="-540.45" font-size="10.50">ProductionLine::factory</text>
+</g>
+<!-- n14&#45;&gt;n3 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M338.61,-487.76C312.55,-477.71 281.08,-464.97 251.98,-452.67" class="edge-line"/>
+<polygon stroke-width="2" points="253.41,-449.95 244.16,-449.34 251.01,-455.59 253.41,-449.95" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="220.84" y="-471.93" font-weight="bold" font-size="10.50">workstations</text>
+</g>
+<!-- n15 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-n">
+
+<rect stroke="none" x="259" y="-448" width="120" height="64" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="255" y="-452" width="128" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-12)" class="node-header"/>
+<text text-anchor="middle" x="319" y="-436" font-size="12.00" dominant-baseline="middle">assemblyStation2</text>
+<use x="265" y="-419" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="281" y="-413" font-style="italic" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">Workstation</text>
+</g>
+<use x="265" y="-403" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="281" y="-397" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">AssemblyStation</text>
+</g>
+<polyline points="259,-425 379,-425" class="node-outline"/>
+<rect fill="none" x="259" y="-448" width="120" height="64" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-12"><rect stroke="none" x="259" y="-448" width="120" height="64" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n14&#45;&gt;n15 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M369.87,-484.29C362.15,-475.92 353.67,-466.18 345.86,-456.75" class="edge-line"/>
+<polygon stroke-width="2" points="348.43,-455.06 340.53,-450.21 343.68,-458.93 348.43,-455.06" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="353.72" y="-469.63" font-weight="bold" font-size="10.50">workstations</text>
+</g>
+<!-- n16 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-p">
+
+<rect stroke="none" x="397" y="-448" width="148" height="64" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="393" y="-452" width="156" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-13)" class="node-header"/>
+<text text-anchor="middle" x="471" y="-436" font-size="12.00" dominant-baseline="middle">qualityControlStation2</text>
+<use x="403" y="-419" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="419" y="-413" font-style="italic" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">Workstation</text>
+</g>
+<use x="403" y="-403" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="419" y="-397" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">QualityControlStation</text>
+</g>
+<polyline points="397,-425 545,-425" class="node-outline"/>
+<rect fill="none" x="397" y="-448" width="148" height="64" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-13"><rect stroke="none" x="397" y="-448" width="148" height="64" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n14&#45;&gt;n16 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M408.23,-484.29C414.7,-475.84 422.78,-465.98 430.97,-456.46" class="edge-line"/>
+<polygon stroke-width="2" points="433.05,-458.74 436.5,-450.14 428.43,-454.71 433.05,-458.74" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="354" y="-457.43" font-weight="bold" font-size="10.50">workstations</text>
+</g>
+<!-- n17 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-i">
+
+<rect stroke="none" x="577" y="-448" width="92" height="64" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="573" y="-452" width="100" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-14)" class="node-header"/>
+<text text-anchor="middle" x="623" y="-436" font-size="12.00" dominant-baseline="middle">roboticCell1</text>
+<use x="583" y="-419" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="599" y="-413" font-style="italic" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">Workstation</text>
+</g>
+<use x="583" y="-403" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="599" y="-397" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">RoboticCell</text>
+</g>
+<polyline points="577,-425 669,-425" class="node-outline"/>
+<rect fill="none" x="577" y="-448" width="92" height="64" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-14"><rect stroke="none" x="577" y="-448" width="92" height="64" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n14&#45;&gt;n17 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M451.36,-484.14C479.62,-473.59 514.21,-460.61 545,-448 552.02,-445.12 559.39,-441.97 566.69,-438.8" class="edge-line"/>
+<polygon stroke-width="2" points="567.72,-441.7 574.52,-435.4 565.27,-436.08 567.72,-441.7" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="445.58" y="-463.69" font-weight="bold" font-size="10.50">workstations</text>
+</g>
+<!-- n15&#45;&gt;n14 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M351.51,-447.86C359.39,-456.73 367.58,-466.42 374.74,-475.34" class="edge-line"/>
+<polygon points="371.91,-477.4 380.84,-483.1 377.41,-473.07 371.91,-477.4" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="293.05" y="-468.48" font-size="10.50">productionLine</text>
+</g>
+<!-- n16&#45;&gt;n14 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M451.38,-447.86C444.14,-456.92 435.77,-466.83 427.72,-475.9" class="edge-line"/>
+<polygon points="425.26,-473.4 421.15,-483.17 430.45,-478.1 425.26,-473.4" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="436.08" y="-468.87" font-size="10.50">productionLine</text>
+</g>
+<!-- n20 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-p">
+
+<rect stroke="none" x="182.5" y="-340" width="61" height="48" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="178.5" y="-344" width="69" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-15)" class="node-header"/>
+<text text-anchor="middle" x="213" y="-328" font-size="12.00" dominant-baseline="middle">alarm1</text>
+<use x="188.5" y="-311" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="204.5" y="-305" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">Alarm</text>
+</g>
+<polyline points="182.5,-317 243.5,-317" class="node-outline"/>
+<rect fill="none" x="182.5" y="-340" width="61" height="48" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-15"><rect stroke="none" x="182.5" y="-340" width="61" height="48" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n16&#45;&gt;n20 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M397.45,-390.19C391.22,-388.02 385.01,-385.92 379,-384 319.84,-365.11 299.64,-375.57 244,-348 242.86,-347.43 241.72,-346.83 240.58,-346.2" class="edge-line"/>
+<polygon stroke-width="2" points="242.26,-343.64 233.23,-341.52 238.96,-348.8 242.26,-343.64" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="277.37" y="-373.32" font-weight="bold" font-size="10.50">alarms</text>
+</g>
+<!-- n21 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-p">
+
+<rect stroke="none" x="261.5" y="-340" width="61" height="48" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="257.5" y="-344" width="69" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-16)" class="node-header"/>
+<text text-anchor="middle" x="292" y="-328" font-size="12.00" dominant-baseline="middle">alarm2</text>
+<use x="267.5" y="-311" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="283.5" y="-305" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">Alarm</text>
+</g>
+<polyline points="261.5,-317 322.5,-317" class="node-outline"/>
+<rect fill="none" x="261.5" y="-340" width="61" height="48" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-16"><rect stroke="none" x="261.5" y="-340" width="61" height="48" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n16&#45;&gt;n21 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M397.05,-386.88C372.76,-375.81 346.12,-362.31 323,-348 322.12,-347.45 321.23,-346.89 320.34,-346.32" class="edge-line"/>
+<polygon stroke-width="2" points="322.37,-344 313.44,-341.51 318.87,-349.02 322.37,-344" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="317.11" y="-356.79" font-weight="bold" font-size="10.50">alarms</text>
+</g>
+<!-- n30 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-p">
+
+<rect stroke="none" x="340.5" y="-340" width="61" height="48" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="336.5" y="-344" width="69" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-17)" class="node-header"/>
+<text text-anchor="middle" x="371" y="-328" font-size="12.00" dominant-baseline="middle">alarm4</text>
+<use x="346.5" y="-311" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="362.5" y="-305" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">Alarm</text>
+</g>
+<polyline points="340.5,-317 401.5,-317" class="node-outline"/>
+<rect fill="none" x="340.5" y="-340" width="61" height="48" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-17"><rect stroke="none" x="340.5" y="-340" width="61" height="48" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n16&#45;&gt;n30 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M433.32,-384.26C421.06,-372.81 407.78,-359.81 396.6,-348.3" class="edge-line"/>
+<polygon stroke-width="2" points="398.87,-346.24 390.6,-342.04 394.44,-350.48 398.87,-346.24" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="374.48" y="-365.84" font-weight="bold" font-size="10.50">alarms</text>
+</g>
+<!-- n17&#45;&gt;n14 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M577.13,-442.04C572.39,-444.1 567.62,-446.11 563,-448 530.22,-461.43 493.13,-475.27 462.09,-486.16" class="edge-line"/>
+<polygon points="461.1,-482.8 452.81,-489.39 463.4,-489.41 461.1,-482.8" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="514.72" y="-469.51" font-size="10.50">productionLine</text>
+</g>
+<!-- n18 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-j">
+
+<rect stroke="none" x="420" y="-348" width="124" height="64" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="416" y="-352" width="132" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-18)" class="node-header"/>
+<text text-anchor="middle" x="482" y="-336" font-size="12.00" dominant-baseline="middle">visionSystem1</text>
+<use x="426" y="-319" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="442" y="-313" font-style="italic" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">AutomationDevice</text>
+</g>
+<use x="426" y="-303" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="442" y="-297" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">VisionSystem</text>
+</g>
+<polyline points="420,-325 544,-325" class="node-outline"/>
+<rect fill="none" x="420" y="-348" width="124" height="64" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-18"><rect stroke="none" x="420" y="-348" width="124" height="64" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n17&#45;&gt;n18 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M577.21,-387.44C561.88,-377.22 544.8,-365.45 529.36,-354.49" class="edge-line"/>
+<polygon stroke-width="2" points="531.35,-352.15 522.45,-349.56 527.79,-357.14 531.35,-352.15" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="446.38" y="-371.38" font-weight="bold" font-size="10.50">automationDevices</text>
+</g>
+<!-- n17&#45;&gt;n19 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M611.38,-384.06C602.22,-350.5 590.61,-296.7 584.32,-259.26" class="edge-line"/>
+<polygon stroke-width="2" points="587.35,-258.86 582.95,-250.71 581.31,-259.83 587.35,-258.86" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="544.31" y="-307.85" font-weight="bold" font-size="10.50">automationDevices</text>
+</g>
+<!-- n26 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-j">
+
+<rect stroke="none" x="618" y="-348" width="124" height="64" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="614" y="-352" width="132" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-19)" class="node-header"/>
+<text text-anchor="middle" x="680" y="-336" font-size="12.00" dominant-baseline="middle">visionSystem2</text>
+<use x="624" y="-319" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="640" y="-313" font-style="italic" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">AutomationDevice</text>
+</g>
+<use x="624" y="-303" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="640" y="-297" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">VisionSystem</text>
+</g>
+<polyline points="618,-325 742,-325" class="node-outline"/>
+<rect fill="none" x="618" y="-348" width="124" height="64" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-19"><rect stroke="none" x="618" y="-348" width="124" height="64" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n17&#45;&gt;n26 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M634.56,-384.26C639.03,-375.86 644.29,-366.62 649.63,-357.76" class="edge-line"/>
+<polygon stroke-width="2" points="652.09,-359.6 654.07,-350.54 646.88,-356.39 652.09,-359.6" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="542.91" y="-357.27" font-weight="bold" font-size="10.50">automationDevices</text>
+</g>
+<!-- n27 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-j">
+
+<rect stroke="none" x="760" y="-348" width="124" height="64" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="756" y="-352" width="132" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-20)" class="node-header"/>
+<text text-anchor="middle" x="822" y="-336" font-size="12.00" dominant-baseline="middle">visionSystem3</text>
+<use x="766" y="-319" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="782" y="-313" font-style="italic" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">AutomationDevice</text>
+</g>
+<use x="766" y="-303" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="782" y="-297" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">VisionSystem</text>
+</g>
+<polyline points="760,-325 884,-325" class="node-outline"/>
+<rect fill="none" x="760" y="-348" width="124" height="64" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-20"><rect stroke="none" x="760" y="-348" width="124" height="64" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n17&#45;&gt;n27 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M668.76,-389.51C692.73,-377.29 722.59,-362.52 749.59,-349.51" class="edge-line"/>
+<polygon stroke-width="2" points="750.88,-352.28 757.45,-345.74 748.23,-346.76 750.88,-352.28" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="612.22" y="-370.3" font-weight="bold" font-size="10.50">automationDevices</text>
+</g>
+<!-- n31 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-j">
+
+<rect stroke="none" x="902" y="-348" width="124" height="64" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="898" y="-352" width="132" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-21)" class="node-header"/>
+<text text-anchor="middle" x="964" y="-336" font-size="12.00" dominant-baseline="middle">visionSystem4</text>
+<use x="908" y="-319" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="924" y="-313" font-style="italic" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">AutomationDevice</text>
+</g>
+<use x="908" y="-303" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="924" y="-297" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">VisionSystem</text>
+</g>
+<polyline points="902,-325 1026,-325" class="node-outline"/>
+<rect fill="none" x="902" y="-348" width="124" height="64" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-21"><rect stroke="none" x="902" y="-348" width="124" height="64" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n17&#45;&gt;n31 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M668.79,-404.71C721.47,-393.31 809.92,-373.16 884,-348 886.43,-347.17 888.9,-346.3 891.38,-345.39" class="edge-line"/>
+<polygon stroke-width="2" points="892.43,-348.26 899.5,-342.27 890.23,-342.55 892.43,-348.26" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="786.79" y="-368.32" font-weight="bold" font-size="10.50">automationDevices</text>
+</g>
+<!-- n18&#45;&gt;n17 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M532.88,-347.97C546.88,-357.38 561.99,-367.82 575.78,-377.61" class="edge-line"/>
+<polygon points="573.69,-380.41 583.86,-383.38 577.76,-374.72 573.69,-380.41" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="559.16" y="-368.49" font-size="10.50">roboticCell</text>
+</g>
+<!-- n18&#45;&gt;n19 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M506.74,-284.26C515.41,-275.23 525.42,-265.23 535.23,-255.76" class="edge-line"/>
+<polygon points="537.48,-258.45 542.3,-249.01 532.65,-253.39 537.48,-258.45" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="467.65" y="-268.65" font-size="10.50">managedBy</text>
+</g>
+<!-- n19&#45;&gt;n9 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M519.17,-207.66C455.9,-198.59 355.33,-180.69 265.56,-149.81" class="edge-line"/>
+<polygon stroke-width="2" points="266.8,-147 257.53,-146.99 264.77,-152.78 266.8,-147" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="385.82" y="-186.84" font-weight="bold" font-size="10.50">events</text>
+</g>
+<!-- n19&#45;&gt;n13 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M519.05,-210.41C461.3,-203.69 374.95,-187.35 311,-148 278.81,-128.19 285.61,-106.17 255,-84 232.34,-67.59 204.42,-54.61 180.21,-45.05" class="edge-line"/>
+<polygon points="181.74,-41.89 171.15,-41.58 179.24,-48.43 181.74,-41.89" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="262.24" y="-138.54" font-size="10.50">subscribedTo</text>
+</g>
+<!-- n19&#45;&gt;n17 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M592.57,-247.72C601.75,-281.34 613.42,-335.45 619.73,-372.99" class="edge-line"/>
+<polygon points="616.22,-373.25 621.26,-382.57 623.13,-372.14 616.22,-373.25" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="556.69" y="-318.28" font-size="10.50">roboticCell</text>
+</g>
+<!-- n19&#45;&gt;n18 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M556.04,-247.97C547.35,-257.02 537.33,-267.02 527.53,-276.48" class="edge-line"/>
+<polygon points="525.28,-273.78 520.46,-283.22 530.11,-278.85 525.28,-273.78" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="538.11" y="-268.69" font-size="10.50">devices</text>
+</g>
+<!-- n19&#45;&gt;n22 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M520.11,-184.26C502.46,-174.59 483.25,-163.82 465.74,-153.78" class="edge-line"/>
+<polygon stroke-width="2" points="467.39,-151.19 458.28,-149.48 464.33,-156.5 467.39,-151.19" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="452.71" y="-169.81" font-weight="bold" font-size="10.50">events</text>
+</g>
+<!-- n19&#45;&gt;n23 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M574.69,-184.26C574.29,-176.4 574.17,-167.81 574.3,-159.48" class="edge-line"/>
+<polygon stroke-width="2" points="577.36,-159.84 574.58,-150.99 571.23,-159.64 577.36,-159.84" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="539.25" y="-169.7" font-weight="bold" font-size="10.50">events</text>
+</g>
+<!-- n24 -->
+<g class="node node-default node-exists-TRUE node-equalsSelf-TRUE node-typeHash-g">
+
+<rect stroke="none" x="677.5" y="-148" width="135" height="64" rx="12" ry="12" class="node-bg"/>
+<rect stroke="none" x="673.5" y="-152" width="143" height="27" clip-path="url(#refinery-31MTi5AJnTOZucweq5WNn-clip-22)" class="node-header"/>
+<text text-anchor="middle" x="745" y="-136" font-size="12.00" dominant-baseline="middle">statusUpdateEvent1</text>
+<use x="683.5" y="-119" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="699.5" y="-113" font-style="italic" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">Event</text>
+</g>
+<use x="683.5" y="-103" width="12" height="12" href="#refinery-31MTi5AJnTOZucweq5WNn-icon-TRUE" class="icon icon-TRUE"/>
+<g><text text-anchor="start" x="699.5" y="-97" font-size="12.00" class="label label-TRUE" dominant-baseline="middle">StatusUpdateEvent</text>
+</g>
+<polyline points="677.5,-125 812.5,-125" class="node-outline"/>
+<rect fill="none" x="677.5" y="-148" width="135" height="64" rx="12" ry="12" class="node-outline"/>
+<clipPath id="refinery-31MTi5AJnTOZucweq5WNn-clip-22"><rect stroke="none" x="677.5" y="-148" width="135" height="64" rx="12" ry="12" class="node-bg"/></clipPath></g>
+<!-- n19&#45;&gt;n24 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M626.13,-184.26C641.82,-174.59 659.77,-163.82 676.89,-153.78" class="edge-line"/>
+<polygon stroke-width="2" points="678.22,-156.55 684.24,-149.49 675.14,-151.26 678.22,-156.55" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="621.22" y="-169.57" font-weight="bold" font-size="10.50">events</text>
+</g>
+<!-- n19&#45;&gt;n26 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M618.61,-247.97C628.1,-256.93 638.19,-266.82 647.42,-276.19" class="edge-line"/>
+<polygon points="644.73,-278.45 654.21,-283.18 649.74,-273.57 644.73,-278.45" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="601.2" y="-256.5" font-size="10.50">devices</text>
+</g>
+<!-- n19&#45;&gt;n27 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M642.77,-237.7C674.27,-249.49 713.29,-264.79 749.07,-279.49" class="edge-line"/>
+<polygon points="747.58,-282.66 758.16,-283.24 750.25,-276.19 747.58,-282.66" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="665.58" y="-250.91" font-size="10.50">devices</text>
+</g>
+<!-- n19&#45;&gt;n28 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M642.98,-200.39C690.49,-188.97 757.02,-171.16 813,-148 815.52,-146.96 818.07,-145.82 820.63,-144.63" class="edge-line"/>
+<polygon stroke-width="2" points="821.95,-147.39 828.43,-140.77 819.23,-141.9 821.95,-147.39" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="703.39" y="-166.03" font-weight="bold" font-size="10.50">events</text>
+</g>
+<!-- n19&#45;&gt;n31 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M642.97,-225.46C705.74,-235.42 805.26,-254.04 890.72,-280.44" class="edge-line"/>
+<polygon points="889.57,-283.75 900.16,-283.42 891.68,-277.07 889.57,-283.75" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="737.18" y="-252.54" font-size="10.50">devices</text>
+</g>
+<!-- n20&#45;&gt;n16 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M243.07,-336.06C249.12,-340.47 255.54,-344.8 262,-348 313.96,-373.74 335.01,-366.33 385.73,-380.61" class="edge-line"/>
+<polygon points="384.62,-383.93 395.2,-383.45 386.63,-377.23 384.62,-383.93" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="215.37" y="-358.06" font-size="10.50">qualityControlStation</text>
+</g>
+<!-- n21&#45;&gt;n16 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M322.09,-334.92C328.26,-339.44 334.72,-344.12 341,-348 358.87,-359.06 378.85,-369.64 397.7,-378.99" class="edge-line"/>
+<polygon points="396.16,-382.13 406.68,-383.38 399.24,-375.84 396.16,-382.13" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="364.06" y="-351.99" font-size="10.50">qualityControlStation</text>
+</g>
+<!-- n22&#45;&gt;n13 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M329.04,-91.55C321.24,-88.97 313.46,-86.41 306,-84 263.86,-70.36 216.26,-55.58 180.38,-44.23" class="edge-line"/>
+<polygon points="181.67,-40.96 171.08,-41.28 179.56,-47.64 181.67,-40.96" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="249.51" y="-68.54" font-size="10.50">dashboard</text>
+</g>
+<!-- n22&#45;&gt;n19 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M468.31,-147.97C486.14,-157.74 505.54,-168.63 523.16,-178.74" class="edge-line"/>
+<polygon points="521.02,-181.54 531.43,-183.5 524.51,-175.48 521.02,-181.54" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="486.6" y="-156.46" font-size="10.50">plc</text>
+</g>
+<!-- n23&#45;&gt;n13 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M503.05,-89.13C496.97,-87.25 490.9,-85.51 485,-84 379.02,-56.89 252.57,-39.9 181.16,-31.45" class="edge-line"/>
+<polygon points="181.6,-27.98 171.26,-30.3 180.79,-34.94 181.6,-27.98" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="337.27" y="-56.11" font-size="10.50">dashboard</text>
+</g>
+<!-- n23&#45;&gt;n19 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M587.33,-147.97C587.71,-155.84 587.83,-164.44 587.69,-172.77" class="edge-line"/>
+<polygon points="584.19,-172.64 587.36,-182.75 591.19,-172.87 584.19,-172.64" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="573.75" y="-156.64" font-size="10.50">plc</text>
+</g>
+<!-- n24&#45;&gt;n19 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M699.5,-147.97C683.63,-157.74 665.48,-168.63 648.23,-178.74" class="edge-line"/>
+<polygon points="646.94,-175.44 640.06,-183.5 650.46,-181.48 646.94,-175.44" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="669.08" y="-168.95" font-size="10.50">plc</text>
+</g>
+<!-- n25&#45;&gt;n0 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M617.67,-527.24C565.41,-543.07 488.73,-565.53 440.3,-579.13" class="edge-line"/>
+<polygon points="439.38,-575.76 430.69,-581.82 441.26,-582.5 439.38,-575.76" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="523.83" y="-557.66" font-size="10.50">ProductionLine::factory</text>
+</g>
+<!-- n25&#45;&gt;n4 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" stroke-width="2" d="M724.88,-484.06C750.83,-473.25 783.02,-460.19 812.55,-448.47" class="edge-line"/>
+<polygon stroke-width="2" points="813.46,-451.4 820.47,-445.34 811.21,-445.71 813.46,-451.4" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="704.72" y="-455.58" font-weight="bold" font-size="10.50">workstations</text>
+</g>
+<!-- n26&#45;&gt;n17 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M668.31,-347.97C663.83,-356.38 658.57,-365.62 653.22,-374.48" class="edge-line"/>
+<polygon points="650.26,-372.62 647.99,-382.97 656.22,-376.3 650.26,-372.62" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="657.94" y="-357.07" font-size="10.50">roboticCell</text>
+</g>
+<!-- n26&#45;&gt;n19 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M642.63,-284.26C633.15,-275.32 623.06,-265.43 613.82,-256.04" class="edge-line"/>
+<polygon points="616.5,-253.78 607.01,-249.05 611.48,-258.66 616.5,-253.78" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="624.04" y="-268.84" font-size="10.50">managedBy</text>
+</g>
+<!-- n27&#45;&gt;n17 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M765.39,-348C738.27,-361.68 705.93,-377.54 678.9,-390.4" class="edge-line"/>
+<polygon points="677.73,-387.08 670.19,-394.52 680.72,-393.41 677.73,-387.08" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="717.24" y="-374.44" font-size="10.50">roboticCell</text>
+</g>
+<!-- n27&#45;&gt;n19 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M760.03,-291.6C753.93,-289 747.84,-286.42 742,-284 713.03,-271.97 681.08,-259.24 653.3,-248.15" class="edge-line"/>
+<polygon points="654.85,-245 644.27,-244.54 652.26,-251.5 654.85,-245" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="701.45" y="-269.98" font-size="10.50">managedBy</text>
+</g>
+<!-- n28&#45;&gt;n13 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M831.2,-91.41C825.22,-88.49 819.08,-85.87 813,-84 694.75,-47.57 323.14,-31.75 180.97,-26.82" class="edge-line"/>
+<polygon points="181.16,-23.32 171.05,-26.48 180.92,-30.32 181.16,-23.32" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="506" y="-46.15" font-size="10.50">dashboard</text>
+</g>
+<!-- n28&#45;&gt;n19 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M830.64,-148.15C773.25,-171.84 704.85,-189.93 654.1,-201.28" class="edge-line"/>
+<polygon points="653.39,-197.85 644.38,-203.42 654.89,-204.69 653.39,-197.85" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="723.73" y="-182.52" font-size="10.50">plc</text>
+</g>
+<!-- n29&#45;&gt;n4 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M1056.03,-339.77C1052.14,-342.67 1048.03,-345.5 1044,-348 1024.36,-360.19 1002.18,-371.82 981.08,-381.86" class="edge-line"/>
+<polygon points="979.77,-378.61 972.19,-386.02 982.73,-384.95 979.77,-378.61" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="1014.58" y="-367.49" font-size="10.50">qualityControlStation</text>
+</g>
+<!-- n30&#45;&gt;n16 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M400.13,-339.85C412.06,-350.7 425.86,-363.96 438.14,-376.31" class="edge-line"/>
+<polygon points="435.38,-378.5 444.89,-383.18 440.38,-373.6 435.38,-378.5" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="423.26" y="-364.17" font-size="10.50">qualityControlStation</text>
+</g>
+<!-- n31&#45;&gt;n17 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M901.53,-348.16C826.37,-373.65 736.56,-393.97 679.55,-405.24" class="edge-line"/>
+<polygon points="679.23,-401.74 670.08,-407.09 680.57,-408.61 679.23,-401.74" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="731.68" y="-384.59" font-size="10.50">roboticCell</text>
+</g>
+<!-- n31&#45;&gt;n19 -->
+<g class="edge edge-TRUE">
+
+<path fill="none" d="M902.39,-290.63C896.22,-288.21 890.02,-285.94 884,-284 806.93,-259.18 716.17,-240.86 654.14,-229.71" class="edge-line"/>
+<polygon points="654.85,-226.28 644.39,-227.98 653.63,-233.17 654.85,-226.28" class="edge-line edge-arrow"/>
+<text text-anchor="start" x="773.8" y="-256.65" font-size="10.50">managedBy</text>
+</g>
+</g>
+</svg>
