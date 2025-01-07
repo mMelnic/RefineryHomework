@@ -1,0 +1,182 @@
+class Factory {
+    contains ProductionLine[] productionLines opposite factory
+    contains Dashboard[] dashboards opposite factory
+}
+
+class ProductionLine {
+    container Factory factory opposite productionLines
+    contains Workstation[1..20] workstations opposite productionLine
+}
+
+abstract class Workstation {
+    container ProductionLine productionLine opposite workstations
+}
+
+class RoboticCell extends Workstation {
+    contains AutomationDevice[2..*] automationDevices opposite roboticCell
+}
+
+class AssemblyStation extends Workstation {}
+
+class QualityControlStation extends Workstation {
+    contains Alarm[1..*] alarms opposite qualityControlStation
+}
+
+class Alarm {
+    container QualityControlStation qualityControlStation opposite alarms
+}
+
+abstract class AutomationDevice {
+    container RoboticCell roboticCell opposite automationDevices
+    refers PLC[0..1] managedBy opposite devices
+}
+
+class Actuator extends AutomationDevice {}
+
+class VisionSystem extends AutomationDevice {}
+
+class PLC extends AutomationDevice {
+    AutomationDevice[1..10] devices opposite managedBy
+    contains Event[0..*] events opposite plc
+    Dashboard subscribedTo opposite subscribedPLCs
+}
+
+abstract class Event {
+    container PLC plc opposite events
+    Dashboard[0..*] dashboard opposite loggedEvents
+}
+
+class AlarmEvent extends Event {}
+class StatusUpdateEvent extends Event {}
+class ProductionMetricEvent extends Event {}
+
+class Dashboard {
+    container Factory factory opposite dashboards
+    refers PLC[1..5] subscribedPLCs opposite subscribedTo
+    Event[1..10] loggedEvents opposite dashboard
+}
+
+// Instance model
+
+// Objects with Types
+Factory(factory1).
+ProductionLine(productionLine1).
+ProductionLine(productionLine2).
+
+RoboticCell(roboticCell1).
+RoboticCell(roboticCell2).
+AssemblyStation(assemblyStation1).
+AssemblyStation(assemblyStation2).
+QualityControlStation(qcStation1).
+QualityControlStation(qcStation2).
+
+Alarm(alarm1).
+Alarm(alarm2).
+Alarm(alarm3).
+
+Actuator(actuator1).
+Actuator(actuator2).
+Actuator(actuator3).
+VisionSystem(visionSystem1).
+
+PLC(plc1).
+PLC(plc2).
+
+AlarmEvent(alarmEvent1).
+AlarmEvent(alarmEvent2).
+StatusUpdateEvent(statusUpdateEvent1).
+ProductionMetricEvent(productionMetricEvent1).
+
+Dashboard(dashboard1).
+Dashboard(dashboard2).
+
+// Links
+// Factory and its components
+productionLines(factory1, productionLine1).
+productionLines(factory1, productionLine2).
+dashboards(factory1, dashboard1).
+dashboards(factory1, dashboard2).
+
+// ProductionLines and Workstations
+workstations(productionLine1, roboticCell1).
+workstations(productionLine1, assemblyStation1).
+workstations(productionLine1, qcStation1).
+workstations(productionLine2, roboticCell2).
+workstations(productionLine2, assemblyStation2).
+workstations(productionLine2, qcStation2).
+
+// QualityControlStation and Alarms
+alarms(qcStation1, alarm1).
+alarms(qcStation1, alarm2).
+alarms(qcStation2, alarm3).
+
+// RoboticCell and AutomationDevices
+automationDevices(roboticCell1, actuator1).
+automationDevices(roboticCell1, visionSystem1).
+automationDevices(roboticCell1, plc1).
+automationDevices(roboticCell2, actuator2).
+automationDevices(roboticCell2, actuator3).
+automationDevices(roboticCell2, plc2).
+
+// PLC and its components
+devices(plc1, actuator1).
+devices(plc1, visionSystem1).
+devices(plc2, actuator2).
+devices(plc2, actuator3).
+
+events(plc1, alarmEvent1).
+events(plc1, statusUpdateEvent1).
+events(plc2, productionMetricEvent1).
+events(plc2, alarmEvent2).
+
+// Dashboard and PLC subscriptions
+subscribedPLCs(dashboard1, plc1).
+subscribedPLCs(dashboard2, plc2).
+
+// Events logged by Dashboard
+loggedEvents(dashboard1, alarmEvent1).
+loggedEvents(dashboard1, statusUpdateEvent1).
+loggedEvents(dashboard2, alarmEvent2).
+
+// Defaults (Negative Assertions for Undefined Links)
+default !productionLines(*,*).
+default !dashboards(*,*).
+default !workstations(*,*).
+default !automationDevices(*,*).
+default !alarms(*,*).
+default !devices(*,*).
+default !events(*,*).
+default !subscribedPLCs(*,*).
+default !loggedEvents(*,*).
+
+
+// Predicates and Constraints
+
+pred mustHaveQualityControl(ProductionLine pl) <->
+    Workstation(w),
+    QualityControlStation(w),
+    productionLine(w, pl).
+
+pred mustProcessAtLeastOneEvent(PLC plc) <->
+    Event(e),
+    plc(e, plc).
+
+pred mustReportToSamePLC(AutomationDevice ad) <->
+    !PLC(ad),
+    managedBy(ad, plc),
+    RoboticCell(rc),
+    automationDevices(rc, ad),
+    automationDevices(rc, plc)
+    ;
+    PLC(ad),
+    !managedBy(ad, _plc2).
+
+error missingQualityControlStation(ProductionLine pl) <->
+    !mustHaveQualityControl(pl).
+
+error plcWithoutEvents(PLC plc) <->
+    !mustProcessAtLeastOneEvent(plc).
+
+error automationDeviceWithoutMatchingPLC(AutomationDevice ad) <->
+    !mustReportToSamePLC(ad).
+
