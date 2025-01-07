@@ -1,0 +1,100 @@
+class Factory {
+    contains ProductionLine[] productionLines opposite factory
+    contains Dashboard[] dashboards opposite factory
+}
+
+class ProductionLine {
+    container Factory factory opposite productionLines
+    contains Workstation[1..20] workstations opposite productionLine
+}
+
+abstract class Workstation {
+    container ProductionLine productionLine opposite workstations
+}
+
+class RoboticCell extends Workstation {
+    contains AutomationDevice[2..*] automationDevices opposite roboticCell
+}
+
+class AssemblyStation extends Workstation {}
+
+class QualityControlStation extends Workstation {
+    contains Alarm[1..*] alarms opposite qualityControlStation
+}
+
+class Alarm {
+    container QualityControlStation qualityControlStation opposite alarms
+}
+
+abstract class AutomationDevice {
+    container RoboticCell roboticCell opposite automationDevices
+    refers PLC[0..1] managedBy opposite devices
+}
+
+class Actuator extends AutomationDevice {}
+
+class VisionSystem extends AutomationDevice {}
+
+class PLC extends AutomationDevice {
+    AutomationDevice[1..10] devices opposite managedBy
+    contains Event[0..*] events opposite plc
+    Dashboard subscribedTo opposite subscribedPLCs
+}
+
+abstract class Event {
+    container PLC plc opposite events
+    Dashboard[0..*] dashboard opposite loggedEvents
+}
+
+class AlarmEvent extends Event {}
+class StatusUpdateEvent extends Event {}
+class ProductionMetricEvent extends Event {}
+
+class Dashboard {
+    container Factory factory opposite dashboards
+    refers PLC[1..5] subscribedPLCs opposite subscribedTo
+    Event[1..10] loggedEvents opposite dashboard
+}
+
+// Predicates and Constraints
+
+pred mustHaveQualityControl(ProductionLine pl) <->
+    Workstation(w),
+    QualityControlStation(w),
+    productionLine(w, pl).
+
+pred mustProcessAtLeastOneEvent(PLC plc) <->
+    Event(e),
+    plc(e, plc).
+
+pred mustReportToSamePLC(AutomationDevice ad) <->
+    !PLC(ad),
+    managedBy(ad, plc),
+    RoboticCell(rc),
+    automationDevices(rc, ad),
+    automationDevices(rc, plc)
+    ;
+    PLC(ad),
+    !managedBy(ad, _plc2).
+
+error missingQualityControlStation(ProductionLine pl) <->
+    !mustHaveQualityControl(pl).
+
+error plcWithoutEvents(PLC plc) <->
+    !mustProcessAtLeastOneEvent(plc).
+
+error automationDeviceWithoutMatchingPLC(AutomationDevice ad) <->
+    !mustReportToSamePLC(ad).
+
+scope Factory = 1..1.
+scope ProductionLine = 1..3.
+scope Dashboard = 1..2.
+scope Workstation = 3..20.
+scope RoboticCell = 1..5.
+scope QualityControlStation = 1..3.
+scope AssemblyStation = 2..10.
+scope AutomationDevice = 5..15.
+scope PLC = 2..5.
+scope Event = 5..10.
+scope Alarm = 2..10.
+
